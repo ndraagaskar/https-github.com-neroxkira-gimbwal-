@@ -9,7 +9,7 @@ window.addEventListener('load', () => {
 const messages = [
     {
         text: "plss mau dong",
-        image: "https://i.pinimg.com/736x/1e/7c/6f/1e7c6ff7a0c26f7eaefbce683656193d.jpg"
+        image: "https://i.pinimg.com/736x/ff/10/80/ff1080791bf22b007e0feeb98a0dcd58.jpg"
     },
     {
         text: "pls klik yg kiri",
@@ -121,7 +121,7 @@ function getFarPosition(containerRect, windowWidth, windowHeight, buttonWidth, b
 }
 
 yesBtn.addEventListener('click', () => {
-    title.innerHTML = "HORE!!, yaudaa mau eskrimm apaaa";
+    title.innerHTML = "HORE!!, KITA FIX BALIKANN! CIHUYY!";
     document.querySelector('img').remove(); 
     noBtn.style.display = 'none';
     yesBtn.style.display = 'none';
@@ -134,7 +134,7 @@ noBtn.addEventListener('click', () => {
         title.innerHTML = messages[noCount - 1].text;
         document.querySelector('img').src = messages[noCount - 1].image;
     } else {
-        title.innerHTML = "TAPI BOONG HEHEHE";
+        title.innerHTML = "HOREE!!";
         if (!noBtn.classList.contains('running')) {
             noBtn.classList.add('running');
         }
